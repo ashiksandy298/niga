@@ -1,0 +1,12 @@
+t1 = (10, 20, 30, 40, 20, 50)
+print("First element:", t1[0])
+print("Sliced tuple:", t1[1:4])
+print("Length:", len(t1))
+print("Count of 20:", t1.count(20))
+print("Index of 30:", t1.index(30))
+t2 = (60, 70)
+print("Concatenated tuple:", t1 + t2)
+print("Repeated tuple:", t2 * 2)
+print("Is 40 in tuple?", 40 in t1)
+for i in t1:
+  print(i, end=' ')
