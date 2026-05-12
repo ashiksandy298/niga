@@ -1,3 +1,7 @@
+import os 
+file_name = "example.txt"
+path = os.path.abspath(file_name)
+print(path)
 with open("sample.txt", "w") as file:
  file.write("This is a sample text.")
 with open("sample.txt", "r") as file:
